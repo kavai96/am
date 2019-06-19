@@ -1,0 +1,277 @@
+{
+"systems": [{
+		"id": 653,
+		"deviceId": 0,
+		"membershipType": "OWNER",
+		"name": "my house",
+		"systemType": "TYCO",
+		"status": "armed",
+    "imgSrc": "/assets/background/house1.jpg",
+		"address": {
+			"city": "Szeged",
+			"countryCode": "HU",
+			"id": null,
+			"latitude": 0,
+			"longitude": 0,
+			"streetAddress": "Kálvária sugárút 24",
+			"zipCode": "6722"
+		}
+	},
+	{
+		"id": 450,
+		"deviceId": 1,
+		"membershipType": "OWNER",
+		"name": "coffee shop",
+		"systemType": "TYCO",
+		"status": "armed",
+    "imgSrc": "/assets/background/coffeeshop.jpg",
+		"address": {
+			"city": "Szeged",
+			"countryCode": "HU",
+			"id": null,
+			"latitude": 0,
+			"longitude": 0,
+			"streetAddress": "Kálvária sugárút 24",
+			"zipCode": "6722"
+		}
+	},
+	{
+		"id": 850,
+		"deviceId": 2,
+		"membershipType": "OWNER",
+		"name": "weekend house",
+		"systemType": "TYCO",
+		"status": "armed",
+    "imgSrc": "/assets/background/weekendhouse.jpg",
+		"address": {
+			"city": "Szeged",
+			"countryCode": "HU",
+			"id": null,
+			"latitude": 0,
+			"longitude": 0,
+			"streetAddress": "Kálvária sugárút 24",
+			"zipCode": "6722"
+		}
+	}
+	],
+"systems2": [{
+		"id": 3,
+		"deviceId": 3,
+		"membershipType": "OWNER",
+		"name": "my house",
+		"systemType": "TYCO",
+		"status": "armed",
+    "imgSrc": "/assets/background/house1.jpg",
+		"address": {
+			"city": "Szeged",
+			"countryCode": "HU",
+			"id": null,
+			"latitude": 0,
+			"longitude": 0,
+			"streetAddress": "Kálvária sugárút 24",
+			"zipCode": "6722"
+		}
+	},
+	{
+		"id": 4,
+		"deviceId": 4,
+		"membershipType": "OWNER",
+		"name": "coffee shop",
+		"systemType": "TYCO",
+		"status": "armed",
+    "imgSrc": "/assets/background/coffeeshop.jpg",
+		"address": {
+			"city": "Szeged",
+			"countryCode": "HU",
+			"id": null,
+			"latitude": 0,
+			"longitude": 0,
+			"streetAddress": "Kálvária sugárút 24",
+			"zipCode": "6722"
+		}
+	}
+	],
+
+	"profiles": [{
+		"email": "testUser@test.com",
+		"username": "testUser",
+		"systemId": 1,
+		"firstName": "Mr",
+		"lastName": "Green",
+		"locale": "en_GB",
+		"mediaId": null,
+		"pinCode": 1234,
+		"telephone": "+36 301234567",
+		"userId": 0
+
+		},{
+		"email": "creativeMan@test.com",
+		"username": "super",
+		"systemId": 2,
+		"firstName": "Mr",
+		"lastName": "Green",
+		"locale": "en_GB",
+		"mediaId": null,
+		"pinCode": 4321,
+		"telephone": "+36 301234567",
+		"userId": 1
+
+		}],
+	"devices": 
+		{"devices0":[{
+				"name": "Garage camera",
+				"type": "Outdoor camera",
+				"presets": 1,
+				"lowbattery": false
+				},{
+				"name": "Inngangsdoor",
+				"type": "Indoor camera",
+				"presets": 2,
+				"lowbattery": false
+				},{
+				"name": "IP Camera",
+				"type": "Ip camera",
+				"presets": 0,
+				"lowbattery": true
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 1,
+				"lowbattery": false
+				}
+		],"devices1":[{
+				"name": "Dimmable device",
+				"type": "Multilevel switch",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "Z-Wave Controller",
+				"type": "System panel",
+				"presets": 0,
+				"lowbattery": true
+				},{
+				"name": "Ip camera",
+				"type": "Ip camera",
+				"presets": 2,
+				"lowbattery": false
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 2,
+				"lowbattery": false
+				}
+		],"devices2":[{
+				"name": "Kitchen door",
+				"type": "Indoor camera",
+				"presets": 1,
+				"lowbattery": true
+				},{
+				"name": "IP Camera",
+				"type": "Ip camera",
+				"presets": 1,
+				"lowbattery": false
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 0,
+				"lowbattery": false
+				}
+		],"devices3":[{
+				"name": "Bedroom door",
+				"type": "Indoor camera",
+				"presets": 3,
+				"lowbattery": false
+				},{
+				"name": "Garage camera",
+				"type": "Ip camera",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "Livingroom door",
+				"type": "Indoor camera",
+				"presets": 3,
+				"lowbattery": false
+				}
+		],"devices4":[{
+				"name": "IP Camera",
+				"type": "Ip camera",
+				"presets": 1,
+				"lowbattery": true
+				},{
+				"name": "Kitchen camera",
+					"type": "Indoor camera",
+				"presets": 2,
+				"lowbattery": false
+				},{
+				"name": "Bedroom camera",
+				"type": "Indoor camera",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "ZWave Plug",
+				"type": "Binary switch",
+				"presets": 0,
+				"lowbattery": false
+				},{
+				"name": "Garage camera",
+				"type": "Outdoor camera",
+				"presets": 1,
+				"lowbattery": false
+				}
+		]},
+"armingState": [{
+		"id": "653",
+		"armedBy": "Mr Green",
+		"inProgress": false,
+		"lastChanged": 146546456,
+		"state": "armed"
+		},{
+		"id": "450",
+		"armedBy": "Mr Green",
+		"inProgress": false,
+		"lastChanged": 1449649156,
+		"state": "partially armed"
+		},{
+		"id": "850",
+		"armedBy": "Mr Green",
+		"inProgress": false,
+		"lastChanged": 146516156,
+		"state": "disarmed"}
+		],
+"activeAlarmCount": [{
+		"id": 653,
+		"solved": 0,
+		"unsolved": 0,
+		"unverified": 0
+		},{
+		"id": 450,
+		"solved": 0,
+		"unsolved": 0,
+		"unverified": 0
+		},{
+		"id": 850,
+		"solved": 0,
+		"unsolved": 0,
+		"unverified": 0
+		},{
+		"id": 20,
+		"solved": 0,
+		"unsolved": 0,
+		"unverified": 0
+		}]
+}
